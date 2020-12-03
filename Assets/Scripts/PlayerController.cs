@@ -30,5 +30,10 @@ public class PlayerController : MonoBehaviour
         }
         horizonatalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizonatalInput * Time.deltaTime * speed);
+        if(horizonatalInput.GetKeyDown(KeyCode.Space))
+        {
+            //Launch a bone from player
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
     }
 }
