@@ -550,7 +550,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -777,7 +777,7 @@ PrefabInstance:
     - target: {fileID: 5073463454298120496, guid: 12959bbda93536b4a81714c3cc052f70,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.07
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5073463454298120496, guid: 12959bbda93536b4a81714c3cc052f70,
         type: 3}
@@ -787,7 +787,7 @@ PrefabInstance:
     - target: {fileID: 5073463454298120496, guid: 12959bbda93536b4a81714c3cc052f70,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.65
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5073463454298120496, guid: 12959bbda93536b4a81714c3cc052f70,
         type: 3}
@@ -857,7 +857,7 @@ PrefabInstance:
     - target: {fileID: 5687038710149006978, guid: de8ba11da66c0574baa5d0ecf701cffe,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.39
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5687038710149006978, guid: de8ba11da66c0574baa5d0ecf701cffe,
         type: 3}
@@ -922,7 +922,7 @@ PrefabInstance:
     - target: {fileID: 5704473015834684024, guid: d052e3a23d8f87948a377fac70685fe4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.54
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5704473015834684024, guid: d052e3a23d8f87948a377fac70685fe4,
         type: 3}
@@ -932,7 +932,7 @@ PrefabInstance:
     - target: {fileID: 5704473015834684024, guid: d052e3a23d8f87948a377fac70685fe4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.46
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5704473015834684024, guid: d052e3a23d8f87948a377fac70685fe4,
         type: 3}
@@ -978,6 +978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bernard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704473015834924936, guid: d052e3a23d8f87948a377fac70685fe4,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d052e3a23d8f87948a377fac70685fe4, type: 3}
