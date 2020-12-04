@@ -1396,6 +1396,8 @@ GameObject:
   - component: {fileID: 5704473015827615416}
   - component: {fileID: 5704473014066366744}
   - component: {fileID: 450586038750107298}
+  - component: {fileID: 5704473015036300915}
+  - component: {fileID: 2359037000599189726}
   m_Layer: 0
   m_Name: Bernard
   m_TagString: Untagged
@@ -1496,6 +1498,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21bddac3e360f874ba95af816ff7cd12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5704473015036300915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704473015834924936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18099579, y: 0.20297568, z: 0.27100012}
+  m_Center: {x: 0.0050559044, y: 0.09771395, z: 0.028871318}
+--- !u!114 &2359037000599189726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5704473015834924936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01245b7c506e55345835960d07990f21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5704473015834926048
